@@ -1,1 +1,73 @@
 
+<!DOCTYPE html><html>
+<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+ 
+  <!-- Kommentar -->
+<title>Test.06 by UF</title>
+  <!-- <link rel=\"icon\" href=\"data:,\">   -->
+<style>
+  <!-- html { font-family: Helvetica; font size:"30px"; display: inline-block; margin: 0px auto; text-align: center; background-color: #0000ff; color: #b0e0e6;}.button { background-color: #b0e0e6; border: 10px solid black; color: white; padding: 16px 40px; width: 200px;text-decoration: none; font-size: 50px; margin: 2px; cursor: pointer; color: #000044;}.button2 {background-color: #555555;} -->
+ 
+h1 { font-size: 70px;}
+ p { font-size: 50px;}
+  .footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    height: 5%;
+   background-color: #b0e0e6;
+   color: black;
+   text-align: center;
+}
+ </style>
+
+<script type="text/javascript">
+function uhr() {
+var Jetzt = new Date();
+var Tag = Jetzt.getDate();
+var Monat = Jetzt.getMonth() + 1;
+var Jahr = Jetzt.getFullYear();
+var Stunden = Jetzt.getHours();
+var Minuten = Jetzt.getMinutes();
+var Sekunden = Jetzt.getSeconds();
+if(Sekunden<10) {Sekunden = "0" + String(Sekunden)}
+if(Minuten<10) {Minuten = "0"  + String(Minuten)}
+ if (Stunden<10) {Stunden ="0" + String(Stunden)}
+if (Tag<10) {Tag="0" + String(Tag)}
+if (Monat <10) {Monat="0" + String(Monat)}
+document.getElementById("uhr").innerHTML=Stunden + ":"+ Minuten + ":" + Sekunden;
+ document.getElementById("datum").innerHTML=Tag + "." + Monat + "." + Jahr ;
+}
+window.setInterval("uhr()", 1000)
+window.setIntervall("datum()",1000)
+</script>
+</head>
+
+<body>
+ 
+<h1>&#128360 Radio GaGa &#128264</h1>
+  <img src = "robotron.jpg" width="300" />
+  <img src="Bilder/Bild1.jpg" width="200">
+<hr style="border: solid #b0e0e6; border-width: 5px; "; />
+<p style=\border: 1px solid #b0e0e6; padding: 2px;\>Station:  + Station_Name + </p>
+<p style=\border: 1px solid #b0e0e6; padding: 2px;\>Titel: + Titel + </p>
+<p style=\border: 1px solid #b0e0e6; padding: 2px;\>Interpret:  + Interpret + </p>
+<hr style="border:solid #b0e0e6; border-width: 3px;" />
+  
+<p><a href=\"/26/on\"><button class=\"button\" style="height:8%;width:20%; position: absolute; top:40%; right: 15%; font-size:80px; font-weight: bold; background-color: #0000ff; border-radius: 15px; border: 8px solid #000088; color: #b0e0e6" >&#128316</button></a></p>
+<p><a href=\"/26/off\"><button class=\"button button1\" style="height:8%;width:20%; position: absolute; top:60%; right: 15%; font-size:80px; font-weight: bold; background-color: #0000ff; border-radius: 15px; border: 8px solid #000088; color: #b0e0e6;">&#128317</button></a></p>
+<p><a href=\"/27/on\"><button class=\"button button3\" style="height:8%;width:20%; position: absolute;  top:40%; left: 15%;font-size:80px; font-weight: bold; background-color: #0000ff; border-radius: 15px; border: 8px solid #000088; color: #b0e0e6;">&#128316</button><a></p>
+<p><a href=\"/27/off\"><button class=\"button button4\" style="height:8%;width:20%; position: absolute; top:60%; left: 15%;font-size:80px; font-weight: bold; background-color: #0000ff; border-radius: 15px; border: 8px solid #000088; color: #b0e0e6;">&#128317</button></a></p>
+
+<p style="position: absolute; top: 48.5%; right: 15%; font-size: 60px; font-weight: bold; text-align: center;">Volume</p>
+<p style="position: absolute; top: 48.5%; left: 15%; font-size: 60px; font-weight: bold; text-align: center;">Station</font></p>
+
+<div class="footer">
+</div>
+  <p style="position: absolute; bottom: -2.4%; left: 37%; color: #000044;">&#128251 &#169 UF  &#128251;</p>
+  <p id="uhr" style="position: absolute; bottom:-40px; left: 5%; color: #000044"</p>
+  <p id="datum" style="position: absolute; bottom:-40px; right: 5%; color: #000044"</p>
+</body>
+</html>
+
