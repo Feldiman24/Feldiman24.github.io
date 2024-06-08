@@ -1,0 +1,77 @@
+﻿[
+    {
+        "Nr.": "1",
+        "Link": "http://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid",
+        "Sender_Name": "Radio Fritz"
+    },
+    {
+        "Nr.": "2",
+        "Link": "http://streams.radiobob.de/bob-national/mp3-192/mediaplayer",
+        "Sender_Name": "RadioBob LiveStream National"
+    },
+    {
+        "Nr.": "3",
+        "Link": "http://streams.radiobob.de/bob-classicrock/mp3-128/mediaplayer",
+        "Sender_Name": "RadioBob Classic Rock"
+    },
+    {
+        "Nr.": "4",
+        "Link": "http://streams.radiobob.de/bob-kuschelrock/mp3-192/mediaplayer",
+        "Sender_Name": "RadioBob Kuschelrock"
+    },
+    {
+        "Nr.": "5",
+        "Link": "http://streams.radiobob.de/70errock/mp3-192/mediaplayer/",
+        "Sender_Name": "RadioBob 70er Rock"
+    },
+    {
+        "Nr.": "6",
+        "Link": "http://streams.radiobob.de/progrock/mp3-192/mediaplayer/",
+        "Sender_Name": "RadioBob ProgRock"
+    },
+    {
+        "Nr.": "7",
+        "Link": "http://streams.radiobob.de/rockoldies/mp3-192/mediaplayer/",
+        "Sender_Name": "RadioBob Rock Oldies"
+    },
+    {
+        "Nr.": "8",
+        "Link": "http://streams.radiobob.de/bob-chillout/mp3-192/mediaplayer/",
+        "Sender_Name": "RadioBob ChillOut"
+    },
+    {
+        "Nr.": "9",
+        "Link": "https://starfm.streamabc.net/30-hardrock-mp3-192-6928617",
+        "Sender_Name": "StarFM HardRock"
+    },
+    {
+        "Nr.": "10",
+        "Link": "http://stream.starfm.de/berlin/mp3-128/webseite",
+        "Sender_Name": "StarFM Berlin"
+    },
+    {
+        "Nr.": "11",
+        "Link": "https://starfm.streamabc.net/30-classicrock-mp3-192-4299376",
+        "Sender_Name": "StarFM Classic Rock"
+    },
+    {
+        "Nr.": "12",
+        "Link": "http://rtlberlin.streamabc.net/rtlb-1046rtllive-mp3-128-3429579",
+        "Sender_Name": "104.6 RTL Berlin"
+    },
+    {
+        "Nr.": "13",
+        "Link": "http://streamtdy.ir-media-tec.com/gutenacht/mp3-128/web/play.mp3",
+        "Sender_Name": "Radio Teddy Gute Nacht"
+    },
+    {
+        "Nr.": "14",
+        "Link": "http://streamtdy.ir-media-tec.com/sc-san/mp3-128/web/play.mp3",
+        "Sender_Name": "Radio Teddy Sachsen"
+    },
+    {
+        "Nr.": "15",
+        "Link": "http://streamtdy.ir-media-tec.com/kinderhelden/mp3-128/web/play.mp3",
+        "Sender_Name": "Radio Teddy Kinderhelden"
+    }
+]
